@@ -1,3 +1,9 @@
+"""
+This module entails SQL query in a single variable that creates 9 views from the 9 raw csv datasets
+
+This query will be executed by DuckDB
+"""
+
 
 sql_query = """
 CREATE OR REPLACE VIEW movies AS
